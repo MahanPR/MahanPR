@@ -2,7 +2,6 @@
 <h3 align="center"> A bash script for easier access </h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=MahanPR&label=Profile%20views&color=0e75b6&style=flat" alt="MahanPR" />
-<img src="https://img.shields.io/github/license/MahanPR/MahanPR?style=flat-square" alt="https://github.com/MahanPR/MahanPR/main/LICENSE" /> </p>
 <p align="center">
   <img src="./assets/menu.png" width="350" />
 </p>

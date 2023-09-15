@@ -3,7 +3,7 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=MahanPR&label=Profile%20views&color=0e75b6&style=flat" alt="MahanPR" />
 <p align="center">
-  <img src="./assets/menu.png" width="350" />
+  <img src="./assets/smenu.png" width="350" />
 </p>
 
  ### By Mahan

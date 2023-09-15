@@ -31,7 +31,7 @@ while true; do
     echo -e "${YELLOW}|${NC}                       B Y                        ${YELLOW}|${NC}"
     echo -e "${YELLOW}|${NC}              P E R S I A N G U Y S               ${YELLOW}|${NC}"
     echo -e "${YELLOW}|           ---------------------------            |${NC}"
-    echo -e "${YELLOW}|                    ${GRAY}Main Menu${BLUE}                     |${NC}"
+    echo -e "${YELLOW}|                    ${GRAY}Main Menu${YELLOW}                     |${NC}"
     echo -e "${YELLOW}|--------------------------------------------------|${NC}"
     echo -e "${GRAY}|                                                  |${NC}"
     echo -e "${BLUE}|${GREEN}      ------------ Server Tools ------------      ${BLUE}|${NC}"

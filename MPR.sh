@@ -34,7 +34,7 @@ while true; do
     echo -e "${YELLOW}|                    ${GRAY}Main Menu${YELLOW}                     |${NC}"
     echo -e "${YELLOW}|--------------------------------------------------|${NC}"
     echo -e "${GRAY}|                                                  |${NC}"
-    echo -e "${BLUE}|${GREEN}      ------------ Server Tools ------------      ${BLUE}|${NC}"
+    echo -e "${BLUE}|${RED}      ------------ Server Tools ------------      ${BLUE}|${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
     echo -e "${BLUE}|${YELLOW} 1.${NC} ${CYAN}Update server and install dependences${NC}         ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW} 2.${NC} ${GRAY}Change SSH port${NC}                               ${BLUE}|${NC}"
@@ -45,7 +45,7 @@ while true; do
     echo -e "${BLUE}|${YELLOW} 7.${NC} ${CYAN}change reposiroy${NC}                              ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW} 8.${NC} ${GRAY}change nameserver${NC}                             ${BLUE}|${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
-    echo -e "${GREEN}|     ---------------  V2ray  --------------       |${NC}"
+    echo -e "${RED}|     ---------------  V2ray  --------------       |${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
     echo -e "${BLUE}|${YELLOW}  9.${NC} ${GRAY}Install panel${NC}                                ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW} 10.${NC} ${CYAN}reality.ez${NC}                                   ${BLUE}|${NC}"
@@ -53,7 +53,7 @@ while true; do
     echo -e "${BLUE}|${YELLOW} 12.${NC} ${CYAN}Install and config ssl ${NC}                      ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW} 13.${NC} ${GRAY}Reality Protocol${NC}                             ${BLUE}|${NC}" 
     echo -e "${BLUE}|                                                  |${NC}"
-    echo -e "${GREEN}|     ------------ VPN configure -----------       |${NC}"
+    echo -e "${RED}|     ------------ VPN configure -----------       |${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
     echo -e "${BLUE}|${YELLOW}14.${NC} ${CYAN}Cisco anyconnect${NC}                              ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW}15.${NC} ${GRAY}Install OpenVPN${NC}                               ${BLUE}|${NC}"
@@ -63,7 +63,7 @@ while true; do
     echo -e "${BLUE}|${YELLOW}19.${NC} ${GRAY}Install Mtproto proxy${NC}                         ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW}20.${NC} ${GRAY}SSH panel${NC}                                     ${BLUE}|${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
-    echo -e "${GREEN}|    ------------  Side tools  -------------       |${NC}"
+    echo -e "${RED}|    ------------  Side tools  -------------       |${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
     echo -e "${BLUE}|${YELLOW}21.${NC} ${CYAN}Google Recapcha Fix${NC}                           ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW}22.${NC} ${GRAY}Cloudflare white IP scanner${NC}                   ${BLUE}|${NC}"
@@ -71,7 +71,7 @@ while true; do
     echo -e "${BLUE}|${YELLOW}24.${NC} ${GRAY}Install and config WordPress${NC}                  ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW}25.${NC} ${CYAN}Reverse proxy(UNDER development)${NC}              ${BLUE}|${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
-    echo -e "${GREEN}|    ----------------  other  --------------       |${NC}"
+    echo -e "${RED}|    ----------------  other  --------------       |${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
     echo -e "${BLUE}|${YELLOW}26.${NC} ${GREEN}CREDITS${NC}                                       ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW}0.${NC} ${RED}QUIT${NC}                                           ${BLUE}|${NC}"
@@ -79,7 +79,7 @@ while true; do
     echo -e "${YELLOW}|                                                  |${NC}" 
     echo -e "${YELLOW}+--------------------------------------------------+${NC}"
     echo -e ""
-    echo -e "${GREEN}Please choose an option:${NC}"
+    echo -e "${GRAY}Please choose an option:${NC}"
     echo -e ""
     
     read -p "Enter option number: " choice
@@ -88,7 +88,7 @@ while true; do
 
      #UPDATE SEVER
         1)
-            echo -e "${GREEN}Updating server...${NC}" 
+            echo -e "${BLUE}Updating server...${NC}" 
             echo ""
             apt update && apt upgrade -y
             sudo apt install git wget curl ufw  wget  

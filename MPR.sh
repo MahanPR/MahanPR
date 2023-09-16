@@ -74,7 +74,7 @@ while true; do
     echo -e "${GREEN}|    ----------------  other  --------------       |${NC}"
     echo -e "${BLUE}|                                                  |${NC}"
     echo -e "${BLUE}|${YELLOW}26.${NC} ${GREEN}CREDITS${NC}                                       ${BLUE}|${NC}"
-    echo -e "${BLUE}|${YELLOW}0.${NC} ${RED}QUIT${NC}                                             ${BLUE}|${NC}"
+    echo -e "${BLUE}|${YELLOW}0.${NC} ${RED}QUIT${NC}                                           ${BLUE}|${NC}"
     echo -e "${GREEN}|                                                  |${NC}" 
     echo -e "${YELLOW}|                                                  |${NC}" 
     echo -e "${YELLOW}+--------------------------------------------------+${NC}"
